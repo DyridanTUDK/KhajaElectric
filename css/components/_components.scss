@@ -1,0 +1,24 @@
+.border-opaque {
+  border-left: 2px solid $primary-color-rgba;
+  border-right: 2px solid $primary-color-rgba;
+}
+
+.list-styling {
+  flex-direction: row;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    padding: 0 1rem;
+    margin: 0 1rem;
+    i {
+      color: $tint-color;
+      font-size: 1.25rem;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
