@@ -325,44 +325,49 @@
         <div class="row">
           <h4 style="text-align: center">We'd love to hear from you!</h4>
         </div>
-        <div class="row input-container">
-          <div class="col-xs-12">
-            <div class="styled-input wide">
-              <input type="text" id="get_name" required />
-              <label for="name">Name</label>
-            </div>
+        <form action="https://formsubmit.co/khajaelectric21@gmail.com" method="POST">
+
+          <div class="row input-container">
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <input type="name" id="get_name" required name="name
+                "/>
+                <label for="name">Name</label>
+              </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="styled-input">
-              <input type="text" id="get_email" required />
+              <input type="email" id="get_email" required name="email" />
               <label for="email">Email</label>
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="styled-input" style="float: right">
-              <input type="text" id="get_number" required />
+              <input type="text" id="get_number" type="phone_number" name="phone_number" required />
               <label for="number">Phone Number</label>
             </div>
           </div>
           <div class="col-xs-12">
             <div class="styled-input wide">
-              <textarea id="get_message" required></textarea>
+              <textarea id="get_message"type="message" name="message" required></textarea>
               <label
-                for="message
+              for="message
               "
-                >Message</label
+              >Message</label
               >
             </div>
           </div>
           <div class="col-xs-12">
-            <button class="btn-lrg submit-btn" id="btn_click">
+            <button class="btn-lrg submit-btn" id="btn_click" type="sub
+            ">
               Send Message
             </button>
+          </form>
           </div>
         </div>
       </div>
     </section>
-
+    
     <!-- End of Contact Us form -->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="./js/index.js"></script>
